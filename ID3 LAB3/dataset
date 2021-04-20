@@ -1,4 +1,4 @@
-outlook	           temperatur       humidity	     wind	           answer
+outlook	           temperatur       humidity	      wind	           answer
 sunny	             hot	         high	         weak	           no
 sunny	             hot	         high	         strong    	     no
 overcast           hot	            high	         weak	           yes
@@ -11,5 +11,5 @@ sunny	             cool    	      normal         weak  	         yes
 rain	             mild    	      normal         weak  	         yes
 sunny	             mild    	      normal         strong	         yes
 overcast           mild  	        high           strong	         yes
-overcast           hot	            normal         weak	           yes
+overcast           hot	            normal          weak	           yes
 rain	             mild    	      high	         strong	         no

@@ -1,8 +1,8 @@
-Outlook	  Temperature	Humidity	Wind	  Forecast	   Enjoy sport
+Outlook	  Temperature	HumidityWind	  Forecast	   Enjoy sport
 Sunny	  Mild	        High	    Strong	  Same	       Yes
 Rainy	  Hot	        High	    Normal	  Same	       No
-Sunny	  Mild	        Normal	    Strong	  Change	   Yes
-Sunny	  Hot	        High	    Strong	  Change	   Yes
-Sunny	  Cool	        Normal	    Normal	  Change	   No
+Sunny	  Mild	        Normal	    Strong	  Change	  Yes
+Sunny	  Hot	        High	    Strong	  Change	  Yes
+Sunny	  Cool	        Normal	    Normal	  Change	  No
 Overcast  Cool        	Normal	    Normal	  Same	       No
 Rainy	  Hot	        Normal	    Strong	  Same	       Yes

@@ -14,6 +14,18 @@ y.columns = ['Targets']
 
 print(X.head())
 print(y.head())
+#    Sepal_Length  Sepal_Width  Petal_Length  Petal_Width
+# 0           5.1          3.5           1.4          0.2
+# 1           4.9          3.0           1.4          0.2
+# 2           4.7          3.2           1.3          0.2
+# 3           4.6          3.1           1.5          0.2
+# 4           5.0          3.6           1.4          0.2
+#    Targets
+# 0        0
+# 1        0
+# 2        0
+# 3        0
+# 4        0
 
 model = KMeans(n_clusters=3)
 model.fit(X)
@@ -34,3 +46,8 @@ plt.xlabel('Petal Length')
 plt.ylabel('Petal Width')
 print('The accuracy score of K-Mean: ',sm.accuracy_score(y, model.labels_))
 print('The Confusion matrixof K-Mean:\n ',sm.confusion_matrix(y, model.labels_))
+# The accuracy score of K-Mean:  0.8933333333333333
+# The Confusion matrixof K-Mean:
+#   [[50  0  0]
+#  [ 0 48  2]
+#  [ 0 14 36]]
